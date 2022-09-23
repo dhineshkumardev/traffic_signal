@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="source.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="traffic.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="traffic.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="traffic.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="traffic.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="traffic.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="traffic.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="traffic.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="traffic.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="traffic.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="traffic.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="traffic.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="traffic.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="traffic.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="traffic.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="traffic.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="traffic.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="traffic.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="traffic.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="traffic.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="traffic_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="traffic_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="traffic_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="traffic_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="traffic_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="traffic_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="traffic_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="traffic_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="traffic_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="traffic_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="traffic_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="traffic_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="traffic_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="traffic_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="traffic_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="traffic_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="traffic_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="traffic_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="traffic_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="traffic_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1663730111" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1663730111">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663819098" xil_pn:in_ck="-5705711457707235454" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1663819098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="demux.v"/>
+      <outfile xil_pn:name="traffic.v"/>
+      <outfile xil_pn:name="traffic_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1663818194" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7019381113396613781" xil_pn:start_ts="1663818194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663818194" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3251641478251054359" xil_pn:start_ts="1663818194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663770587" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7705412754862807133" xil_pn:start_ts="1663770587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663819098" xil_pn:in_ck="-5705711457707235454" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1663819098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="demux.v"/>
+      <outfile xil_pn:name="traffic.v"/>
+      <outfile xil_pn:name="traffic_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1663819103" xil_pn:in_ck="-5705711457707235454" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7512697674521856550" xil_pn:start_ts="1663819098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="traffic_tb_beh.prj"/>
+      <outfile xil_pn:name="traffic_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1663819104" xil_pn:in_ck="4389582777793228625" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4147705680948042857" xil_pn:start_ts="1663819103">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="traffic_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3672850631499503298" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7705412754862807133" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5671104099501417494" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663767978" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1297348557089606509" xil_pn:start_ts="1663767978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768490" xil_pn:in_ck="-6795136909783306358" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="3541009208083984877" xil_pn:start_ts="1663768378">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="traffic.lso"/>
+      <outfile xil_pn:name="traffic.ngc"/>
+      <outfile xil_pn:name="traffic.ngr"/>
+      <outfile xil_pn:name="traffic.prj"/>
+      <outfile xil_pn:name="traffic.stx"/>
+      <outfile xil_pn:name="traffic.syr"/>
+      <outfile xil_pn:name="traffic.xst"/>
+      <outfile xil_pn:name="traffic_stx_beh.prj"/>
+      <outfile xil_pn:name="traffic_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768010" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981284335667137" xil_pn:start_ts="1663768010">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768531" xil_pn:in_ck="183094976187783429" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-303274950843362687" xil_pn:start_ts="1663768490">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="traffic.bld"/>
+      <outfile xil_pn:name="traffic.ngd"/>
+      <outfile xil_pn:name="traffic_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768651" xil_pn:in_ck="183094976187783430" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="3373610943407121171" xil_pn:start_ts="1663768531">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="traffic.pcf"/>
+      <outfile xil_pn:name="traffic_map.map"/>
+      <outfile xil_pn:name="traffic_map.mrp"/>
+      <outfile xil_pn:name="traffic_map.ncd"/>
+      <outfile xil_pn:name="traffic_map.ngm"/>
+      <outfile xil_pn:name="traffic_map.xrpt"/>
+      <outfile xil_pn:name="traffic_summary.xml"/>
+      <outfile xil_pn:name="traffic_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768762" xil_pn:in_ck="-447233956025550049" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8066324139983898644" xil_pn:start_ts="1663768651">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="traffic.ncd"/>
+      <outfile xil_pn:name="traffic.pad"/>
+      <outfile xil_pn:name="traffic.par"/>
+      <outfile xil_pn:name="traffic.ptwx"/>
+      <outfile xil_pn:name="traffic.unroutes"/>
+      <outfile xil_pn:name="traffic.xpi"/>
+      <outfile xil_pn:name="traffic_pad.csv"/>
+      <outfile xil_pn:name="traffic_pad.txt"/>
+      <outfile xil_pn:name="traffic_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1663768762" xil_pn:in_ck="183094976187783298" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817471" xil_pn:start_ts="1663768720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="traffic.twr"/>
+      <outfile xil_pn:name="traffic.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
