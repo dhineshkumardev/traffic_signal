@@ -44,7 +44,7 @@ module traffic_tb;
 	wire yellow3;
 	wire green3;
 	
-	initial
+	always
 	begin
 		i = 1;
 		s0 = 0;
